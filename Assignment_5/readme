@@ -1,0 +1,12 @@
+Jack Martinez
+N18522789
+
+server.c
+	creates a server that clients can connect to. Server and clients can 
+	exchange messages with each other
+	bugs: whenever a client disconnects, the server displays the last
+		  successful message recieved from the client
+client.c
+	connects to a client that is specified in the commandline args. can 
+	send/recieve messages from the server it's connected to. 
+	no bugs that I could find. 
