@@ -1,0 +1,20 @@
+Jack Martinez
+
+usage:
+	./server [port]
+		defaults to port 5555 if a port isn't included
+
+	./client [username] [ip] [port]
+		username needs to be less than 100 chars
+		ip needs to be in the form xxx.xxx.xxx.xxx.
+		port is optional
+		you can't include a port number if no ip was given
+			(either include ip and port, or just the ip)
+
+omissions
+	when a client connects, they do not get a list of other connected users
+
+notes
+	client.c is extremely similar to the client.c from the previous assignment. The only change
+		was I enforce a username char limit in the main function.
+
